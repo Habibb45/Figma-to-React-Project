@@ -1,0 +1,110 @@
+.customers {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f4f4f4;
+}
+
+.customers h2 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.customers p {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.customer-quotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.quote {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.quote:hover {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.customer-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.quote p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.quote h4 {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+
+.quote p:last-child {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.industries h3 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.industries ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.industries ul li {
+  margin-bottom: 12px;
+}
+
+.cta-button {
+  padding: 14px 30px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
+
+.cta-button:active {
+  background-color: #d81b60;
+}
+
+.cta-button.secondary {
+  background-color: #f4f4f4;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+}
+
+.cta-button.secondary:hover {
+  background-color: #e91e63;
+  color: white;
+}

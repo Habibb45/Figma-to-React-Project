@@ -1,0 +1,55 @@
+.contact-us {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.contact-us h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-option {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 22%;
+  min-width: 250px;
+}
+
+.contact-option h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contact-option p {
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-emails ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-emails li {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}

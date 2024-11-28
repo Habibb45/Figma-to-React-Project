@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", sans-serif;
+  margin-bottom: 10px;
+  color: #4a148c; /* Purple headings */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+:root {
+  --primary-color: #e91e63; /* Pink */
+  --secondary-color: #ff80ab; /* Lighter pink */
+  --accent-color: #ff4081; /* Bold pink */
+  --dark-color: #333;
+  --light-color: #f4f4f9;
+  --highlight-color: #4caf50; /* Green accent */
+  --blue-color: #03a9f4; /* Blue */
+  --yellow-color: black; /* Yellow */
+}
+
+header {
+  background-color: linear-gradient(
+    to right,
+    #ff4081,
+    #e91e63
+  ); /* Gradient pink header */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-color); /* Set all buttons to pink */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color); /* Lighter pink on hover */
+}
+
+button.secondary {
+  background-color: var(--highlight-color);
+}
+
+button.secondary:hover {
+  background-color: #388e3c; /* Darker green */
+}
+
+a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #ffeb3b; /* Yellow card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+footer .footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: var(--primary-color); /* Make form button pink */
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color); /* Lighter pink on hover */
+}
+
+nav {
+  background-color: var(--blue-color);
+  padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li {
+  font-size: 18px;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: var(--yellow-color);
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--accent-color); /* Pink heading */
+}
+
+.main-content p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.faq-item {
+  background-color: var(--light-color);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  color: var(--primary-color); /* Pink heading */
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .main-content h2 {
+    font-size: 24px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .newsletter form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,120 @@
+.plans {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.plans h2 {
+  font-size: 36px;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.plans p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.billing {
+  margin-bottom: 40px;
+}
+
+.billing button {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.billing button:hover {
+  background-color: #c2185b;
+}
+
+.billing span {
+  font-size: 18px;
+  color: #333;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 280px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.plan-card h3 {
+  font-size: 24px;
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+.plan-card p {
+  font-size: 18px;
+  color: #555;
+}
+
+.plan-card .features {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.plan-card .features p {
+  font-size: 16px;
+  color: #555;
+}
+
+.plan-card button {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.plan-card button:hover {
+  background-color: #c2185b;
+}
+
+.plan-card.popular {
+  background-color: #f5faff;
+  border: 2px solid #e91e63;
+}
+
+.plan-card.popular h3 {
+  color: #e91e63;
+}
+
+.plan-card.popular button {
+  background-color: #e91e63;
+}
+
+.plan-card.popular button:hover {
+  background-color: #c2185b;
+}
+
+.popular-tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #e91e63;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+}

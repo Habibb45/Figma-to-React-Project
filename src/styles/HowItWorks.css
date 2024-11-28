@@ -1,0 +1,78 @@
+.how-it-works {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.how-it-works p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-it-works-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.how-it-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 22%;
+  min-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how-it-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.how-it-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.how-it-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.how-it-card:nth-child(1),
+.how-it-card:nth-child(2),
+.how-it-card:nth-child(3),
+.how-it-card:nth-child(4) {
+  background-color: #fff;
+}
+
+.how-it-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.how-it-card p {
+  color: #555;
+}
+
+.how-it-card:hover {
+  background-color: #f7f7f7;
+}
